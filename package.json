@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://izuguchi.github.io/my-app",
-  "scripts": {    
-    "deploy": "gh-pages -d out --nojekyll --cname",
+  "scripts": {
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'https://izuguchi.github.io/my-app' > ./out/CNAME",    
+    "deploy": "gh-pages -d out build --nojekyll --cname",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
