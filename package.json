@@ -5,7 +5,7 @@
   "homepage": "https://izuguchi.github.io/my-app",
   "scripts": {
     "static": "next build && touch /.nojekyll && echo 'my-app' > /.CNAME",    
-    "deploy": "gh-pages -d out --nojekyll --cname",
+    "deploy": "gh-pages -d out --nojekyll --cname my-app",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
