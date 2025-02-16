@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://izuguchi.github.io/my-app",
-  "scripts": {
-    "_static": "next build && touch /.nojekyll && echo 'my-app' > /.CNAME",
+  "scripts": {    
     "deploy": "gh-pages -d out build",
     "dev": "next dev --turbopack",
     "build": "next build",
