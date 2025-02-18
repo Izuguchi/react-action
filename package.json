@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://izuguchi.github.io/my-app",
+  "homepage": "https://izuguchi.github.io/react-action/my-app",
   "scripts": {    
     "deploy": "gh-pages -d out build",
     "dev": "next dev --turbopack",
