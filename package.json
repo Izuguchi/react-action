@@ -1,10 +1,9 @@
 {
+  "homepage": "https://izuguchi.github.io/react-action",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://izuguchi.github.io/my-app",
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "next dev --turbopack",
     "build": "next build",
